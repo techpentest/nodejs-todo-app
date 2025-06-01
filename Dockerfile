@@ -1,10 +1,12 @@
 # Node Base Image
 
-FROM node:16
-WORKDIR /node
-COPY package*.json ./
+FROM node
+WORKDIR /app
+
 COPY . .
 EXPOSE 3000
-RUN npm install
+
+COPY package*.json ./
+
 ENTRYPOINT start npm
 
