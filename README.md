@@ -14,4 +14,10 @@ Simple-nodejs-app is a simple web application created using [Node.js](https://gi
 
 ## Live Preview
 
+<<<<<<< HEAD
 To view a live preview of this application, click [here](https://desolate-coast-53201.herokuapp.com/)
+=======
+`npm install`
+
+`node app.js`
+>>>>>>> ade091961c0fc63657ebb5548a6bf8ed4e912663
